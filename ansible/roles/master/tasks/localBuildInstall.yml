@@ -10,6 +10,7 @@
     - kube-controller-manager
     - kubectl
     - kubelet
+    - e2e.test
   notify: restart daemons
 
 - name: Copy master service files
